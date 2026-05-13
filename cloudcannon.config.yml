@@ -1,0 +1,28 @@
+# CloudCannon configuration for Solace Ceramics
+# This file tells CloudCannon how mom can edit the site.
+# You don't need to touch this — it just needs to live in the repo
+# alongside index.html.
+
+# Where uploaded images go (CloudCannon will create this folder
+# the first time she uploads a photo)
+paths:
+  uploads: "uploads"
+
+# Timezone for any timestamps
+timezone: America/Denver
+
+# Dropdown values mom will see when editing piece status
+_select_data:
+  piece_status:
+    - "Available"
+    - "Spoken for"
+    - "In its new home"
+    - "One like this can be made"
+
+# Default editor settings — visual editing is on, source code editing off
+# (so mom can't accidentally break things)
+_options:
+  bold: true
+  italic: true
+  link: true
+  removeformat: true
